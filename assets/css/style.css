@@ -1,0 +1,35 @@
+#mtCarousel .carousel-item {
+    height: 15rem;
+}
+
+#mtCarousel .carousel-item > img {
+    object-fit: cover;
+}
+
+#mtCarousel .carousel-item > .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.icon-xl {
+    font-size: 5rem;
+}
+
+.card-img-top {
+    height: 15rem;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    #mtCarousel .carousel-item {
+        height: 20rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #mtCarousel .carousel-item {
+        height: 25rem;
+    }
+}
+article{
+    color: aliceblue;
+}
